@@ -119,6 +119,13 @@
 	breakouttime = 30 SECONDS
 	cuffsound = 'sound/weapons/cablecuff.ogg'
 
+/obj/item/restraints/handcuffs/toy
+	name = "toy handcuffs"
+	desc = "Reminds you of playing cops and robbers as a kid. These are straight out of a child's toy kit."
+	materials = list(/datum/material/plastic=500)
+	breakouttime = 0 MINUTES
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 50)
+
 /obj/item/restraints/handcuffs/cable/Initialize(mapload, param_color)
 	. = ..()
 
