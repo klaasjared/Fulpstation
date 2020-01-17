@@ -57,11 +57,11 @@
 								)
 		if (Ml.rating >= 3)
 			part_sets += list(
-								"Firefighter","Odysseus","Gygax"
+								"Firefighter","Odysseus"
 								)
 		if (Ml.rating >= 4)
 			part_sets += list(
-								"Durand","H.O.N.K"
+								"Durand","H.O.N.K","Gygax"
 								)
 		if (Ml.rating >= 5)
 			part_sets += list(
