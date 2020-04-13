@@ -407,6 +407,7 @@
 /obj/item/reagent_containers/food/drinks/beer/light
 	name = "Carp Lite"
 	desc = "Brewed with \"Pure Ice Asteroid Spring Water\"."
+	icon_state = "carp_light" //REVISED 04/13/2020
 	list_reagents = list(/datum/reagent/consumable/ethanol/beer/light = 30)
 
 /obj/item/reagent_containers/food/drinks/ale
@@ -682,6 +683,110 @@
 	desc = "Cola. in space."
 	icon_state = "cola"
 	list_reagents = list(/datum/reagent/consumable/space_cola = 30)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/soda_cans/bepsi //ADDITION 01/19/2020
+	name = "Bepsi Cola"
+	desc = "It has a smell of 'off-brand' when you open it..."
+	icon_state = "bepsi"
+	list_reagents = list(/datum/reagent/consumable/bepsi_cola = 30)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/soda_cans/astro_dew //ADDITION 01/19/2020
+	name = "Astro Dew Spring Water"
+	desc = "A can of refreshing 'spring' water! Or so the can claims."
+	icon_state = "water_can"
+	list_reagents = list(/datum/reagent/water = 49.5, /datum/reagent/fluorine = 0.5)
+
+/obj/item/reagent_containers/food/drinks/soda_cans/can_ice_coffee //ADDITION 01/19/2020
+	name = "Iced Coffee"
+	desc = "Chilled coffee beverage, a hipster's friend."
+	icon_state = "can_ice_coffee"
+	list_reagents = list(/datum/reagent/consumable/icecoffee = 30)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/soda_cans/kvass //ADDITION 01/19/2020
+	name = "Kvass"
+	desc = "A true slavic soda."
+	icon_state = "kvass"
+	list_reagents = list(/datum/reagent/consumable/ethanol/kvass = 30)
+	foodtype = SUGAR | ALCOHOL
+
+/obj/item/reagent_containers/food/drinks/soda_cans/space_lager //ADDITION 01/19/2020
+	name = "Space Lager"
+	desc = "A can of lager. IN SPACE!"
+	icon_state = "space_lager"
+	list_reagents = list(/datum/reagent/consumable/ethanol/lager = 30)
+	foodtype = ALCOHOL
+
+/obj/item/reagent_containers/food/drinks/soda_cans/cosmic_ipa //ADDITION 01/21/2020
+	name = "Cosmic IPA"
+	desc = "Indian Pale Ale in a can. Why not just get it from the tap?"
+	icon_state = "cosmic_ipa"
+	list_reagents = list(/datum/reagent/consumable/ethanol/ipa = 30)
+	foodtype = ALCOHOL
+
+/obj/item/reagent_containers/food/drinks/soda_cans/guinness //ADDITION 01/21/2020
+	name = "Guinness"
+	desc = "A can of good ol' fashinon Irish tap water."
+	icon_state = "guinness_can"
+	list_reagents = list(/datum/reagent/consumable/ethanol/guinness = 30)
+	foodtype = ALCOHOL
+
+/obj/item/reagent_containers/food/drinks/soda_cans/spacecastle_black //ADDITION 01/21/2020
+	name = "Spacecastle Black"
+	desc = "Actual galaxy. IN A CAN!"
+	icon_state = "spacecastle_can"
+	list_reagents = list(/datum/reagent/consumable/ethanol/spacecastle = 30)
+	foodtype = ALCOHOL
+
+/obj/item/reagent_containers/food/drinks/nuka_cola_bottle //ADDITION 01/22/2020
+	name = "Nuka Cola"
+	desc = "Cola... cola never changes..."
+	icon_state = "nuka_bottle"
+	list_reagents = list(/datum/reagent/consumable/nuka_cola = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/soda_cans/wc_black_cherry //ADDITION 04/07/2020
+	name = "White Claw: Black Cherry"
+	desc = "White Claw: A drink for the Chads in space."
+	icon_state = "wc_black_cherry"
+	list_reagents = list(/datum/reagent/consumable/ethanol/wc_black_cherry = 60)
+	foodtype = ALCOHOL
+
+/obj/item/reagent_containers/food/drinks/soda_cans/wc_mango //ADDITION 04/07/2020
+	name = "White Claw: Mango"
+	desc = "White Claw: A drink for the Chads in space."
+	icon_state = "wc_mango"
+	list_reagents = list(/datum/reagent/consumable/ethanol/wc_mango = 60)
+	foodtype = ALCOHOL
+
+/obj/item/reagent_containers/food/drinks/soda_cans/wc_natural_lime //ADDITION 04/07/2020
+	name = "White Claw: Natural Lime"
+	desc = "White Claw: A drink for the Chads in space."
+	icon_state = "wc_natural_lime"
+	list_reagents = list(/datum/reagent/consumable/ethanol/wc_natural_lime = 60)
+	foodtype = ALCOHOL
+
+/obj/item/reagent_containers/food/drinks/soda_cans/wc_ruby_grapefruit //ADDITION 04/07/2020
+	name = "White Claw: Ruby Grapefruit"
+	desc = "White Claw: A drink for the Chads in space."
+	icon_state = "wc_ruby_grapefruit"
+	list_reagents = list(/datum/reagent/consumable/ethanol/wc_ruby_grapefruit = 60)
+	foodtype = ALCOHOL
+
+/obj/item/reagent_containers/food/drinks/soda_cans/wc_raspberry //ADDITION 04/07/2020
+	name = "White Claw: Raspberry"
+	desc = "White Claw: A drink for the Chads in space."
+	icon_state = "wc_raspberry"
+	list_reagents = list(/datum/reagent/consumable/ethanol/wc_raspberry = 60)
+	foodtype = ALCOHOL
+
+/obj/item/reagent_containers/food/drinks/soda_cans/boda //ADDITION 04/13/2020
+	name = "BODA"
+	desc = "A drink for the Tsar and the people..."
+	icon_state = "boda"
+	list_reagents = list(/datum/reagent/consumable/sodawater = 30)
 	foodtype = SUGAR
 
 /obj/item/reagent_containers/food/drinks/soda_cans/tonic
