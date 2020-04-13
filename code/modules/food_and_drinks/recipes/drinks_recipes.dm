@@ -119,8 +119,6 @@
 	required_reagents = list (/datum/reagent/consumable/ethanol/beer = 1, /datum/reagent/consumable/ethanol/ale = 2)
 
 /datum/chemical_reaction/hairy_dairy //ADDITION 01/21/2020
-	name = "The Hairy Dairy"
-	id = /datum/reagent/consumable/ethanol/hairy_dairy
 	results = list(/datum/reagent/consumable/ethanol/hairy_dairy = 2)
 	required_reagents = list (/datum/reagent/consumable/ethanol/manly_dorf = 1, /datum/reagent/consumable/cream = 1)
 
@@ -206,8 +204,6 @@
 	required_reagents = list(/datum/reagent/consumable/ethanol/rum = 1, /datum/reagent/consumable/spacemountainwind = 1, /datum/reagent/blood = 1, /datum/reagent/consumable/dr_gibb = 1)
 
 /datum/chemical_reaction/hadeshellfire //ADDITION 01/20/2020
-	name = "Hades' Hellfire"
-	id = /datum/reagent/consumable/ethanol/hadeshellfire
 	results = list(/datum/reagent/consumable/ethanol/hadeshellfire = 6)
 	required_reagents = list(/datum/reagent/consumable/ethanol/whiskey = 1, /datum/reagent/consumable/bepsi_cola = 2, /datum/reagent/blood = 1, /datum/reagent/consumable/sodawater = 2)
 
