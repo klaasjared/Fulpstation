@@ -121,6 +121,147 @@ All effects don't start immediately, but rather get worse over time; the rate is
 /datum/reagent/consumable/ethanol/beer/green/on_mob_end_metabolize(mob/living/M)
 	M.remove_atom_colour(TEMPORARY_COLOUR_PRIORITY, color)
 
+/datum/reagent/consumable/ethanol/wc_black_cherry //ADDITION 03/09/2020
+	name = "White Claw: Black Cherry"
+	description = "The ultimate alcoholic party drink that emerged in 2019 on Earth."
+	color = "e1f5ff" //R:225 G:245 B:255
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 20
+	taste_description = "sparkling toilet water with a breath of Black Cherry flavoring"
+	glass_name = "glass of black cherry flavored White Claw"
+	glass_desc = "A chad glass of black cherry flavored White Claw."
+
+/datum/reagent/consumable/ethanol/wc_mango //ADDITION 03/09/2020
+	name = "White Claw: Mango"
+	description = "The new addiction to underage kids and college students for being so low in calories."
+	color = "e1f5ff" //R:225 G:245 B:255
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 20
+	taste_description = "sparkling toilet water with a mango in it"
+	glass_name = "glass of mango flavored White Claw"
+	glass_desc = "A chad glass of mango flavored White Claw."
+
+/datum/reagent/consumable/ethanol/wc_natural_lime //ADDITION 03/09/2020
+	name = "White Claw: Natural Lime"
+	description = "Drank most commonly by white boys who’s fathers are lawyers."
+	color = "e1f5ff" //R:225 G:245 B:255
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 20
+	taste_description = "sparkling toilet water synthetic lime juice spritzed in"
+	glass_name = "glass of lime flavored White Claw"
+	glass_desc = "A chad glass of lime flavored White Claw."
+
+/datum/reagent/consumable/ethanol/wc_raspberry //ADDITION 03/09/2020
+	name = "White Claw: Raspberry"
+	description = "For Chads who just killed it last game and broke their drywall."
+	color = "e1f5ff" //R:225 G:245 B:255
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 20
+	taste_description = "sparkling toilet water muddled with raspberry skins"
+	glass_name = "glass of raspberry flavored White Claw"
+	glass_desc = "A chad glass of raspberry flavored White Claw."
+
+/datum/reagent/consumable/ethanol/wc_ruby_grapefruit //ADDITION 03/09/2020
+	name = "White Claw: Ruby Grapefruit"
+	description = "The party in a can for all the Chads and white guys."
+	color = "e1f5ff" //R:225 G:245 B:255
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 20
+	taste_description = "sparkling toilet water with the juice of a grapefruit"
+	glass_name = "glass of grapefruit flavored White Claw"
+	glass_desc = "A chad glass of grapefruit flavored White Claw."
+
+/datum/reagent/consumable/ethanol/lager //ADDITION 01/19/2020 (Standard lager)
+	name = "Lager"
+	description = "It's just a different form of beer. Still very popular."
+	color = "#d6b443"
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "bath water"
+	glass_name = "glass of lager"
+	glass_desc = "A freezing pint of lager."
+
+/datum/reagent/consumable/ethanol/lagger_lager //ADDITION 01/19/2020 (Special Lager - WIP)
+	name = "Lagger_Lager"
+	description = "ERROR - DESCRIPTION NOT FOUND"
+	color = "#d6b443"
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	boozepwr = 25
+	taste_description = "glitchy"
+	glass_name = "glass of Lagger Lager"
+	glass_desc = "A freezing pint of Lagger Lager."
+
+/datum/reagent/consumable/ethanol/kvass //ADDITION 01/19/2020
+	name = "Kvass"
+	description = "A traditional fermented Slavic and Baltic beverage commonly made from rye bread."
+	color = "#b78315"
+	boozepwr = 2.5 //It's just soda to Russians
+	taste_description = "a warm summer day at babushka's cabin."
+	glass_name = "glass of kvass"
+	glass_desc = "A hearty glass of Slavic brew."
+
+/datum/reagent/consumable/ethanol/ipa //ADDITION 01/21/2020
+	name = "IPA"
+	description = "A type of light-colored beer similar to bitter, typically with a higher than average alcohol and hop content."
+	color = "#dfb653" // rgb: 42, 62, 87
+	boozepwr = 70 //slightly stronger than regular Ale
+	taste_description = "strong bitter flavor"
+	glass_name = "glass of IPA"
+	glass_desc = "A bitter pint of Indian Pale Ale."
+
+/datum/reagent/consumable/ethanol/guinness //ADDITION 01/21/2020
+	name = "Guinness"
+	description = "An alcoholic beverage from Old Earth. Helps you forget the potato famine."
+	color = "#dfb653" // rgb: 42, 62, 87
+	boozepwr = 70 //slightly stronger than regular Ale
+	taste_description = "Irish tap water"
+	glass_icon_state = "guinness_glass"
+	glass_name = "glass of Guinness"
+	glass_desc = "A tall pint of Guinness."
+
+/datum/reagent/consumable/ethanol/spacecastle //ADDITION 01/21/2020
+	name = "Spacecastle Black"
+	description = "An interesting brew that seems to have the apperance of a 'galaxy in a glass'."
+	color = "#181819" // rgb: 232, 6, 9
+	boozepwr = 65 //same as ale, but it makes you a bit sleepy
+	taste_description = "sky full of stars"
+	glass_icon_state = "spacecastle_glass"
+	glass_name = "glass of Spacecastle Black"
+	glass_desc = "A sparkling glass of Spacecastle Black."
+
+/datum/reagent/consumable/ethanol/hairy_dairy //ADDITION 01/21/2020
+	name = "The Hairy Dairy"
+	description = "A Manly Dorf... with cream?... WHO THOUGHT OF THIS!?!."
+	color = "#b6b0ae" // rgb: 182, 167, 174
+	boozepwr = 75 //For the (slightly less) manly only
+	quality = DRINK_GOOD
+	taste_description = "spoiled milk mixed with hair"
+	glass_icon_state = "hairy_dairy"
+	glass_name = "The Hairy Dairy"
+	glass_desc = "An awful concoction made from a Manly Dorf and cream..."
+
+/datum/reagent/consumable/ethanol/hairy_dairy/on_mob_life(mob/living/carbon/M)
+	M.adjustFireLoss(-8)
+	. = 1
+	..()
+
+/datum/reagent/consumable/ethanol/hairy_dairy/on_mob_metabolize(mob/living/carbon/M)
+	M.vomit (2)
+	M.dizziness +=2
+	M.emote(pick("twitch","shiver","moan"))
+	..()
+
+/datum/reagent/consumable/ethanol/hadeshellfire //ADDITION 01/19/2020
+	name = "Hades' Hellfire"
+	description = "'Whoa, is my hair out?'"
+	color = "#5d657a" // rgb: 93, 101, 122
+	boozepwr = 75
+	quality = DRINK_VERYGOOD
+	taste_description = "sweet, salty, maybe hint of ash at the end"
+	glass_icon_state = "hades_hellfire"
+	glass_name = "Hades' Hellfire"
+	glass_desc = "We'll dance, we'll kiss, we'll schmooze, we'll go home happy. Whaddya say? C'mon."
+
 /datum/reagent/consumable/ethanol/kahlua
 	name = "Kahlua"
 	description = "A widely known, Mexican coffee-flavoured liqueur. In production since 1936!"
