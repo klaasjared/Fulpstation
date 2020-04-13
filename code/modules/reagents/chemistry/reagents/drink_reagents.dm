@@ -372,22 +372,37 @@
 	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, M.get_body_temp_normal())
 	..()
 
-/datum/reagent/consumable/nuka_cola
+/datum/reagent/consumable/bepsi_cola //ADDITION 01/19/2020
+	name = "Bepsi"
+	description = "A weird cola-like beverage."
+	color = "#100800" // rgb: 16, 8, 0
+	taste_description = "bepsi"
+	glass_icon_state  = "glass_brown"
+	glass_name = "glass of Bepsi Cola"
+	glass_desc = "A glass of weird cola beverage."
+
+/datum/reagent/consumable/bepsi_cola/on_mob_life(mob/living/carbon/M)
+	M.drowsyness = max(0,M.drowsyness-5)
+	M.Jitter(1)
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
+/datum/reagent/consumable/nuka_cola //REVISED 01/22/2020
 	name = "Nuka Cola"
-	description = "Cola, cola never changes."
+	description = "Cola... cola never changes..."
 	color = "#100800" // rgb: 16, 8, 0
 	quality = DRINK_VERYGOOD
-	taste_description = "the future"
-	glass_icon_state = "nuka_colaglass"
+	taste_description = "the future... and radiation"
+	glass_icon_state = "nuka_glass"
 	glass_name = "glass of Nuka Cola"
 	glass_desc = "Don't cry, Don't raise your eye, It's only nuclear wasteland."
 
 /datum/reagent/consumable/nuka_cola/on_mob_metabolize(mob/living/L)
 	..()
-	L.add_movespeed_modifier(/datum/movespeed_modifier/reagent/nuka_cola)
+	L.add_movespeed_modifier(type, update=TRUE, priority=100, multiplicative_slowdown=-0.35, blacklisted_movetypes=(FLYING|FLOATING))
 
 /datum/reagent/consumable/nuka_cola/on_mob_end_metabolize(mob/living/L)
-	L.remove_movespeed_modifier(/datum/movespeed_modifier/reagent/nuka_cola)
+	L.remove_movespeed_modifier(type)
 	..()
 
 /datum/reagent/consumable/nuka_cola/on_mob_life(mob/living/carbon/M)
@@ -396,7 +411,7 @@
 	M.dizziness +=1.5
 	M.drowsyness = 0
 	M.AdjustSleeping(-40, FALSE)
-	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, M.get_body_temp_normal())
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
 	..()
 	. = 1
 
