@@ -104,3 +104,21 @@
 	product_ads = "Refreshing!;Jyrbv dv lg jfdv fw kyrk Jyrdscvi'j Alztv!;Over 1 trillion souls drank!;Thirsty? Nyp efk uizeb kyv uribevjj?;Kyv Jyrdscvi uizebj kyv ezxyk!;Drink up!;Krjkp."
 	light_mask = "shamblers-light-mask"
 	light_mask = "#e4005b"
+
+/obj/machinery/vending/cola/bepsi //ADDITION 01/19/2020
+	name = "\improper Bepsi Vendor"
+	desc = "Tastes just like the real thing!"
+	icon_state = "blu_cola"
+	products = list(/obj/item/reagent_containers/food/drinks/soda_cans/bepsi = 10,
+		            /obj/item/reagent_containers/food/drinks/soda_cans/space_mountain_wind = 10,
+					/obj/item/reagent_containers/food/drinks/soda_cans/dr_gibb = 10,
+					/obj/item/reagent_containers/food/drinks/soda_cans/starkist = 10,
+					/obj/item/reagent_containers/food/drinks/soda_cans/space_up = 10,
+					/obj/item/reagent_containers/food/drinks/soda_cans/can_ice_coffee = 10,
+					/obj/item/reagent_containers/food/drinks/soda_cans/lemon_lime = 10,
+					/obj/item/reagent_containers/food/drinks/soda_cans/sol_dry = 10,
+					/obj/item/reagent_containers/food/drinks/soda_cans/astro_dew = 10)
+	product_slogans = "Tastes just like the real thing!"
+	product_ads = "Refreshing!;Have a sip, you won't believe the taste!;Puts the 'B' in Best Soda!"
+	light_mask = "cola-light-mask"
+	light_color = "#555cc2"
