@@ -12,6 +12,7 @@
 					/obj/item/reagent_containers/food/drinks/bottle/limejuice = 4,
 					/obj/item/reagent_containers/food/drinks/bottle/cream = 4,
 					/obj/item/reagent_containers/food/drinks/soda_cans/cola = 8,
+					/obj/item/reagent_containers/food/drinks/soda_cans/bepsi = 8, //ADDITION 01/20/2020
 					/obj/item/reagent_containers/food/drinks/soda_cans/tonic = 8,
 					/obj/item/reagent_containers/food/drinks/soda_cans/sodawater = 15,
 					/obj/item/reagent_containers/food/drinks/soda_cans/sol_dry = 8,
@@ -19,6 +20,11 @@
 					/obj/item/reagent_containers/food/drinks/bottle/menthol = 4,
 					/obj/item/reagent_containers/food/drinks/ale = 6,
 					/obj/item/reagent_containers/food/drinks/beer = 6,
+					/obj/item/reagent_containers/food/drinks/soda_cans/kvass = 6, //ADDITION 01/20/2020
+					/obj/item/reagent_containers/food/drinks/soda_cans/space_lager = 6, //ADDITION 01/20/2020
+					/obj/item/reagent_containers/food/drinks/soda_cans/spacecastle_black = 6, //ADDITION 01/21/2020
+					/obj/item/reagent_containers/food/drinks/soda_cans/cosmic_ipa = 6, //ADDITION 01/21/2020
+					/obj/item/reagent_containers/food/drinks/soda_cans/guinness = 6, //ADDITION 01/21/2020
 					/obj/item/reagent_containers/food/drinks/bottle/gin = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/whiskey = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/tequila = 5,
@@ -34,7 +40,12 @@
 					/obj/item/reagent_containers/food/drinks/bottle/sake = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/applejack = 5,
 					/obj/item/reagent_containers/food/drinks/bottle = 15,
-					/obj/item/reagent_containers/food/drinks/bottle/small = 15
+					/obj/item/reagent_containers/food/drinks/bottle/small = 15,
+					/obj/item/reagent_containers/food/drinks/soda_cans/wc_black_cherry = 10, //ADDITION 04/07/2020
+		            /obj/item/reagent_containers/food/drinks/soda_cans/wc_mango = 10, //ADDITION 04/07/2020
+					/obj/item/reagent_containers/food/drinks/soda_cans/wc_natural_lime = 10, //ADDITION 04/07/2020
+					/obj/item/reagent_containers/food/drinks/soda_cans/wc_ruby_grapefruit = 10, //ADDITION 04/07/2020
+					/obj/item/reagent_containers/food/drinks/soda_cans/wc_raspberry = 10 //ADDITION 04/07/2020
 					)
 	contraband = list(/obj/item/reagent_containers/food/drinks/mug/tea = 12,
 					 /obj/item/reagent_containers/food/drinks/bottle/fernet = 5)
