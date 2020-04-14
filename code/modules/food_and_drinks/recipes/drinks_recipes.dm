@@ -21,9 +21,9 @@
 	results = list(/datum/reagent/consumable/icecoffee = 4)
 	required_reagents = list(/datum/reagent/consumable/ice = 1, /datum/reagent/consumable/coffee = 3)
 
-/datum/chemical_reaction/nuka_cola
-	results = list(/datum/reagent/consumable/nuka_cola = 6)
-	required_reagents = list(/datum/reagent/uranium = 1, /datum/reagent/consumable/space_cola = 6)
+/datum/chemical_reaction/fusion_cola //REVISION 04/13/2020
+	results = list(/datum/reagent/consumable/fusion_cola = 6)
+	required_reagents = list(/datum/reagent/uranium = 1, /datum/reagent/consumable/nuka_cola = 6)
 
 /datum/chemical_reaction/moonshine
 	results = list(/datum/reagent/consumable/ethanol/moonshine = 10)
