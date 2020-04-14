@@ -387,25 +387,25 @@
 	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
 	..()
 
-/datum/reagent/consumable/nuka_cola //REVISED 01/22/2020
-	name = "Nuka Cola"
+/datum/reagent/consumable/fusion_cola //REVISED 04/13/2020
+	name = "Fusion Cola"
 	description = "Cola... cola never changes..."
 	color = "#100800" // rgb: 16, 8, 0
 	quality = DRINK_VERYGOOD
 	taste_description = "the future... and radiation"
 	glass_icon_state = "nuka_glass"
-	glass_name = "glass of Nuka Cola"
+	glass_name = "glass of Fusion Cola"
 	glass_desc = "Don't cry, Don't raise your eye, It's only nuclear wasteland."
 
-/datum/reagent/consumable/nuka_cola/on_mob_metabolize(mob/living/L)
+/datum/reagent/consumable/fusion_cola/on_mob_metabolize(mob/living/L)
 	..()
 	L.add_movespeed_modifier(type, update=TRUE, priority=100, multiplicative_slowdown=-0.35, blacklisted_movetypes=(FLYING|FLOATING))
 
-/datum/reagent/consumable/nuka_cola/on_mob_end_metabolize(mob/living/L)
+/datum/reagent/consumable/fusion_cola/on_mob_end_metabolize(mob/living/L)
 	L.remove_movespeed_modifier(type)
 	..()
 
-/datum/reagent/consumable/nuka_cola/on_mob_life(mob/living/carbon/M)
+/datum/reagent/consumable/fusion_cola/on_mob_life(mob/living/carbon/M)
 	M.Jitter(20)
 	M.set_drugginess(30)
 	M.dizziness +=1.5
