@@ -460,6 +460,7 @@
 		/datum/reagent/consumable/tea,
 		/datum/reagent/consumable/icetea,
 		/datum/reagent/consumable/space_cola,
+		/datum/reagent/consumable/bepsi_cola, //ADDITION 4/31/2020
 		/datum/reagent/consumable/spacemountainwind,
 		/datum/reagent/consumable/dr_gibb,
 		/datum/reagent/consumable/space_up,
@@ -528,7 +529,13 @@
 		/datum/reagent/consumable/ethanol/creme_de_coconut,
 		/datum/reagent/consumable/ethanol/triple_sec,
 		/datum/reagent/consumable/ethanol/sake,
-		/datum/reagent/consumable/ethanol/applejack
+		/datum/reagent/consumable/ethanol/applejack,
+		/datum/reagent/consumable/ethanol/lager, //ADDITION 04/13/2020
+		/datum/reagent/consumable/ethanol/lagger_lager, //ADDITION 04/13/2020
+		/datum/reagent/consumable/ethanol/kvass, //ADDITION 04/13/2020
+		/datum/reagent/consumable/ethanol/ipa, //ADDITION 04/13/2020
+		/datum/reagent/consumable/ethanol/guinness, //ADDITION 04/13/2020
+		/datum/reagent/consumable/ethanol/spacecastle //ADDITION 04/13/2020
 	)
 	upgrade_reagents = null
 	emagged_reagents = list(
