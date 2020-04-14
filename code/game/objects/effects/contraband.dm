@@ -423,6 +423,21 @@
 	desc = "A poster advertising bounty hunting services. \"I hear you got a problem.\""
 	icon_state = "poster47"
 
+/obj/structure/sign/poster/official/safety_moth_yellow //ADDITION 04/13/2020
+	name = "Yellow Safety Moth"
+	desc = "A poster of Safety Moth, cheerfully grinning at you. Don't disappoint Safety Moth."
+	icon_state = "poster48"
+
+/obj/structure/sign/poster/official/safety_moth_red //ADDITION 04/13/2020
+	name = "Red Safety Moth"
+	desc = "A poster of Safety Moth, cheerfully grinning at you. Don't disappoint Safety Moth."
+	icon_state = "poster49"
+
+/obj/structure/sign/poster/official/green_hang_in_there //ADDITION 04/13/2020
+	name = "Hang In There (Green)"
+	desc = "A poster advising you to stay sane. Stay on that branch, little kitty!"
+	icon_state = "poster50"
+
 /obj/structure/sign/poster/official
 	poster_item_name = "motivational poster"
 	poster_item_desc = "An official Nanotrasen-issued poster to foster a compliant and obedient workforce. It comes with state-of-the-art adhesive backing, for easy pinning to any vertical surface."
@@ -608,5 +623,15 @@
 	name = "Carbon Dioxide"
 	desc = "This informational poster teaches the viewer what carbon dioxide is."
 	icon_state = "poster35_legit"
+
+/obj/structure/sign/poster/official/safety_moth_hardhat //ADDITION 04/13/2020
+	name = "Safety Moth in a Hardhat"
+	desc = "Safety Moth says: 'Proper head protection prevents unfortunate accidents!'"
+	icon_state = "poster36_legit"
+
+/obj/structure/sign/poster/official/blue_hang_in_there //ADDITION 04/13/2020
+	name = "Hang In There (Blue)"
+	desc = "A poster advising you to stay sane. Stay on that branch, little kitty!"
+	icon_state = "poster37_legit"
 
 #undef PLACE_SPEED
