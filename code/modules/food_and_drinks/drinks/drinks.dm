@@ -819,7 +819,7 @@
 
 /obj/item/reagent_containers/food/drinks/nuka_coffee_bottle //ADDITION 04/14/2020
 	name = "Nuka-Boost"
-	desc = "An answer to that morning craving, Nuka-Boost! [now with 500% more caffine!]"
+	desc = "An answer to that morning craving, Nuka-Boost! (now with 500% more caffine!)"
 	icon_state = "nuka_boost_bottle"
 	list_reagents = list(/datum/reagent/consumable/nuka_boost = 35)
 	foodtype = SUGAR
