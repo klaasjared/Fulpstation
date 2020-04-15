@@ -744,7 +744,7 @@
 	name = "Nuka-Cola Dark"
 	desc = "Nuka-Cola's alcoholic friend."
 	icon_state = "nuka_dark_bottle"
-	list_reagents = list(/datum/reagent/consumable/nuka_dark = 35)
+	list_reagents = list(/datum/reagent/consumable/ethanol/nuka_dark = 35)
 	foodtype = ALCOHOL
 
 /obj/item/reagent_containers/food/drinks/sasparilla_bottle //ADDITION 04/14/2020
