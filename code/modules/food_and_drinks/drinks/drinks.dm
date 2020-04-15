@@ -792,7 +792,7 @@
 /obj/item/reagent_containers/food/drinks/nuka_clr_bottle //ADDITION 04/14/2020
 	name = "Nuka-Clear"
 	desc = "Crystal clear Nuka-Cola."
-	icon_state = "nuka_clear_bottle"
+	icon_state = "nuke_clear_bottle"
 	list_reagents = list(/datum/reagent/consumable/nuka_clear = 35)
 	foodtype = SUGAR
 
