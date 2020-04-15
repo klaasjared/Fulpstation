@@ -490,9 +490,9 @@
 
 /datum/reagent/consumable/vim_clear //ADDITION 04/14/2020
 	name = "Vim! Refresh"
-	description = "Some refreshing lemon lime Vim!"
+	description = "Some refreshing apple flavored Vim!"
 	color = "#e2e2e2" // rgb: 226, 226, 226
-	taste_description = "refreshing citrus flavored Vim!"
+	taste_description = "crisp refreshing apple flavored Vim!"
 	glass_icon_state  = "glass_clear"
 	glass_name = "glass of Vim! Refresh"
 	glass_desc = "A glass of Vim! Refresh."
