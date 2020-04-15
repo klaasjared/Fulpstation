@@ -121,6 +121,22 @@ All effects don't start immediately, but rather get worse over time; the rate is
 /datum/reagent/consumable/ethanol/beer/green/on_mob_end_metabolize(mob/living/M)
 	M.remove_atom_colour(TEMPORARY_COLOUR_PRIORITY, color)
 
+/datum/reagent/consumable/nuka_dark //ADDITION 04/14/2020
+	name = "Nuka-Cola Dark"
+	description = "An alcoholic version of the wildly popular Nuka-Cola."
+	color = "#24211e" // rgb: 36, 33, 30
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	taste_description = "deliciously sweet Nuka-Cola with a boozy bite"
+	boozepwr = 25
+	glass_name = "glass of Nuka-Cola Dark"
+	glass_desc = "A glass of Nuka-Cola Dark."
+
+/datum/reagent/consumable/nuka_dark/on_mob_life(mob/living/carbon/M)
+	M.drowsyness = max(0,M.drowsyness-5)
+	M.Jitter(1)
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
 /datum/reagent/consumable/ethanol/wc_black_cherry //ADDITION 03/09/2020
 	name = "White Claw: Black Cherry"
 	description = "The ultimate alcoholic party drink that emerged in 2019 on Earth."
