@@ -739,12 +739,124 @@
 	icon_state = "spacecastle_can"
 	list_reagents = list(/datum/reagent/consumable/ethanol/spacecastle = 30)
 	foodtype = ALCOHOL
+	
+/obj/item/reagent_containers/food/drinks/nuka_dar_bottle //ADDITION 04/14/2020
+	name = "Nuka-Cola Dark"
+	desc = "Nuka-Cola's alcoholic friend."
+	icon_state = "nuka_dark_bottle"
+	list_reagents = list(/datum/reagent/consumable/nuka_dark = 35)
+	foodtype = ALCOHOL
 
-/obj/item/reagent_containers/food/drinks/nuka_cola_bottle //ADDITION 01/22/2020
-	name = "Nuka Cola"
-	desc = "Cola... cola never changes..."
+/obj/item/reagent_containers/food/drinks/sasparilla_bottle //ADDITION 04/14/2020
+	name = "Sunset Sasparilla"
+	desc = "A cowboy's number one choice for a cool refreshing drink."
+	icon_state = "sun_sas_bottle"
+	list_reagents = list(/datum/reagent/consumable/sunset_sas = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/vim_cola_bottle //ADDITION 04/14/2020
+	name = "Vim!"
+	desc = "Maine's official state pop soda!"
+	icon_state = "vim_bottle"
+	list_reagents = list(/datum/reagent/consumable/vim = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/nuka_cola_bottle //REVISED 04/14/2020
+	name = "Nuka-Cola"
+	desc = "An out of this world bottle of Nuka-Cola!"
 	icon_state = "nuka_bottle"
 	list_reagents = list(/datum/reagent/consumable/nuka_cola = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/nuka_cher_bottle //ADDITION 04/14/2020
+	name = "Nuka-Cherry"
+	desc = "An out of this world bottle of Nuka-Cola!"
+	icon_state = "nuka_cherry_bottle"
+	list_reagents = list(/datum/reagent/consumable/nuka_cherry = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/nuka_grap_bottle //ADDITION 04/14/2020
+	name = "Nuka-Grape"
+	desc = "A spacey bottle of purple Nuka-Cola."
+	icon_state = "nuka_grape_bottle"
+	list_reagents = list(/datum/reagent/consumable/nuka_grape = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/nuka_oran_bottle //ADDITION 04/14/2020
+	name = "Nuka-Cola Orange"
+	desc = "A spacey bottle of orange Nuka-Cola."
+	icon_state = "nuka_orange_bottle"
+	list_reagents = list(/datum/reagent/consumable/nuka_orange = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/nuka_clr_bottle //ADDITION 04/14/2020
+	name = "Nuka-Clear"
+	desc = "Crystal clear Nuka-Cola."
+	icon_state = "nuka_clear_bottle"
+	list_reagents = list(/datum/reagent/consumable/nuka_clear = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/vim_clr_bottle //ADDITION 04/14/2020
+	name = "Vim! Refresh"
+	desc = "Delicious and refreshing crisp apple Vim!"
+	icon_state = "vim_refresh_bottle"
+	list_reagents = list(/datum/reagent/consumable/vim_clear = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/nuka_cran_bottle //ADDITION 04/14/2020
+	name = "Nuka-Cola Cranberry"
+	desc = "Delicious West Virginian cranberry flavored Nuka-Cola, an Appalachian favorite!"
+	icon_state = "nuka_cola_cran"
+	list_reagents = list(/datum/reagent/consumable/nuka_cran = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/nuka_west_bottle //ADDITION 04/14/2020
+	name = "Nuka-Wild"
+	desc = "Nuka-Cola's answer to the demand for a more western styled drink."
+	icon_state = "nuka_wild_bottle"
+	list_reagents = list(/datum/reagent/consumable/nuka_wild = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/nuka_coffee_bottle //ADDITION 04/14/2020
+	name = "Nuka-Boost"
+	desc = "An answer to that morning craving, Nuka-Boost! [now with 500% more caffine!]"
+	icon_state = "nuka_boost_bottle"
+	list_reagents = list(/datum/reagent/consumable/nuka_boost = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/nuka_july_bottle //ADDITION 04/14/2020
+	name = "Nuka-Cola Victory!"
+	desc = "Patriotism in it's most refreshing form, to Victory!"
+	icon_state = "nuka_victory_bottle"
+	list_reagents = list(/datum/reagent/consumable/nuka_victory = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/nuka_quar_bottle //ADDITION 04/14/2020
+	name = "Nuka-Cola Quartz"
+	desc = "A shining example of the future to come!"
+	icon_state = "nuka_quartz_bottle"
+	list_reagents = list(/datum/reagent/consumable/nuka_quartz = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/vim_quar_bottle //ADDITION 04/14/2020
+	name = "Vim! Quartz"
+	desc = "A silvery shiny (and very tasty) Vim!"
+	icon_state = "vim_quartz_bottle"
+	list_reagents = list(/datum/reagent/consumable/vim_quartz = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/vim_cap_bottle //ADDITION 04/14/2020
+	name = "Vim! Captain's Blend"
+	desc = "Maine's favorite pop soda, tastes like a cool night on the waters near the shore."
+	icon_state = "vim_captain_bottle"
+	list_reagents = list(/datum/reagent/consumable/vim_captain = 35)
+	foodtype = SUGAR
+
+/obj/item/reagent_containers/food/drinks/nuka_quantum_bottle //ADDITION 04/14/2020
+	name = "Nuka-Cola Quantum"
+	desc = "Nuka-Cola Quantum! Taste the power of quantum mechanics!"
+	icon_state = "quantum_bottle"
+	list_reagents = list(/datum/reagent/consumable/nuka_quantum = 35)
 	foodtype = SUGAR
 
 /obj/item/reagent_containers/food/drinks/soda_cans/wc_black_cherry //ADDITION 04/07/2020
