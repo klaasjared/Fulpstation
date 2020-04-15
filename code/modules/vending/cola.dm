@@ -16,7 +16,7 @@
 					/obj/item/reagent_containers/food/drinks/waterbottle = 10)
 	contraband = list(/obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko = 6,
 		              /obj/item/reagent_containers/food/drinks/soda_cans/shamblers = 6)
-	premium = list(/obj/item/reagent_containers/food/drinks/fussion_cola_bottle = 1,
+	premium = list(/obj/item/reagent_containers/food/drinks/fusion_cola_bottle = 1,
 		           /obj/item/reagent_containers/food/drinks/soda_cans/air = 1,
 		           /obj/item/reagent_containers/food/drinks/soda_cans/monkey_energy = 1,
 		           /obj/item/reagent_containers/food/drinks/soda_cans/grey_bull = 1)
