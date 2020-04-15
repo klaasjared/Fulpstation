@@ -25,6 +25,7 @@
 					/obj/item/reagent_containers/food/drinks/soda_cans/spacecastle_black = 6, //ADDITION 01/21/2020
 					/obj/item/reagent_containers/food/drinks/soda_cans/cosmic_ipa = 6, //ADDITION 01/21/2020
 					/obj/item/reagent_containers/food/drinks/soda_cans/guinness = 6, //ADDITION 01/21/2020
+					/obj/item/reagent_containers/food/drinks/nuka_dar_bottle = 6, //ADDITION 04/15/2020
 					/obj/item/reagent_containers/food/drinks/bottle/gin = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/whiskey = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/tequila = 5,
