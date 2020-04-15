@@ -387,20 +387,257 @@
 	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
 	..()
 
+/datum/reagent/consumable/sunset_sas //ADDITION 01/19/2020
+	name = "Sunset Sasparilla"
+	description = "A traditional sasparilla drink hailing from Viva Las Vegas."
+	color = "#43391f" // rgb: 42, 53, 26
+	taste_description = "sweet flavored sasparilla"
+	glass_icon_state  = "glass_brown"
+	glass_name = "glass of Sunset Sasparilla"
+	glass_desc = "A glass of sweet sasparilla beverage."
+
+/datum/reagent/consumable/sunset_sas/on_mob_life(mob/living/carbon/M)
+	M.drowsyness = max(0,M.drowsyness-5)
+	M.Jitter(1)
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
+/datum/reagent/consumable/vim //ADDITION 04/14/2020
+	name = "Vim!"
+	description = "Maine's state traditional drink of choice."
+	color = "#43341f" // rgb: 67, 52, 31
+	taste_description = "sweet and delicious"
+	glass_icon_state  = "glass_brown"
+	glass_name = "glass of Vim!"
+	glass_desc = "A glass of Vim!."
+
+/datum/reagent/consumable/vim/on_mob_life(mob/living/carbon/M)
+	M.drowsyness = max(0,M.drowsyness-5)
+	M.Jitter(1)
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
 /datum/reagent/consumable/nuka_cola //ADDITION 04/14/2020
-	name = "Nuka Cola"
+	name = "Nuka-Cola"
 	description = "A unique mix of seventeen fruit essences."
-	color = "#180c00" // rgb: 24, 12, 0
-	taste_description = "delicious nuka cola"
-	glass_icon_state  = "glass_empty"
-	glass_name = "glass of Nuka Cola"
-	glass_desc = "A glass of Nuka Cola."
+	color = "#43341f" // rgb: 67, 52, 31
+	taste_description = "delicious Nuka-Cola"
+	glass_name = "glass of Nuka-Cola"
+	glass_desc = "A glass of Nuka-Cola."
 
 /datum/reagent/consumable/nuka_cola/on_mob_life(mob/living/carbon/M)
 	M.drowsyness = max(0,M.drowsyness-5)
 	M.Jitter(1)
 	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
 	..()
+
+/datum/reagent/consumable/nuka_cherry //ADDITION 04/14/2020
+	name = "Nuka-Cherry"
+	description = "Some cherry flavored Nuka-Cola."
+	color = "#432a1f" // rgb: 67, 42, 31
+	taste_description = "delicious cherry flavored Nuka-Cola"
+	glass_name = "glass of Nuka-Cola Cherry"
+	glass_desc = "A glass of Nuka-Cola Cherry."
+
+/datum/reagent/consumable/nuka_cherry/on_mob_life(mob/living/carbon/M)
+	M.drowsyness = max(0,M.drowsyness-5)
+	M.Jitter(1)
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
+/datum/reagent/consumable/nuka_grape //ADDITION 04/14/2020
+	name = "Nuka-Grape"
+	description = "Some grape flavored Nuka-Cola."
+	color = "#341f43" // rgb: 52, 31, 67
+	taste_description = "purple flavored Nuka-Cola"
+	glass_name = "glass of Nuka-Cola Grape"
+	glass_desc = "A glass of Nuka-Cola Grape."
+
+/datum/reagent/consumable/nuka_grape/on_mob_life(mob/living/carbon/M)
+	M.drowsyness = max(0,M.drowsyness-5)
+	M.Jitter(1)
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
+/datum/reagent/consumable/nuka_orange //ADDITION 04/14/2020
+	name = "Nuka-Cola Orange"
+	description = "Some orange flavored Nuka Cola."
+	color = "#895912" // rgb: 137, 89, 18
+	taste_description = "sweet orange flavored Nuka-Cola"
+	glass_name = "glass of Nuka Cola Orange"
+	glass_desc = "A glass of Nuka Cola Orange."
+
+/datum/reagent/consumable/nuka_orange/on_mob_life(mob/living/carbon/M)
+	M.drowsyness = max(0,M.drowsyness-5)
+	M.Jitter(1)
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
+/datum/reagent/consumable/nuka_clear //ADDITION 04/14/2020
+	name = "Nuka-Clear"
+	description = "Some lemon lime Nuka-Cola."
+	color = "#e2e2e2" // rgb: 226, 226, 226
+	taste_description = "strong citrus flavored Nuka-Cola"
+	glass_icon_state  = "glass_clear"
+	glass_name = "glass of Nuka-Clear"
+	glass_desc = "A glass of Nuka-Clear."
+
+/datum/reagent/consumable/nuka_clear/on_mob_life(mob/living/carbon/M)
+	M.drowsyness = max(0,M.drowsyness-5)
+	M.Jitter(1)
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
+/datum/reagent/consumable/vim_clear //ADDITION 04/14/2020
+	name = "Vim! Refresh"
+	description = "Some refreshing lemon lime Vim!"
+	color = "#e2e2e2" // rgb: 226, 226, 226
+	taste_description = "refreshing citrus flavored Vim!"
+	glass_icon_state  = "glass_clear"
+	glass_name = "glass of Vim! Refresh"
+	glass_desc = "A glass of Vim! Refresh."
+
+/datum/reagent/consumable/vim_clear/on_mob_life(mob/living/carbon/M)
+	M.drowsyness = max(0,M.drowsyness-5)
+	M.Jitter(1)
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
+/datum/reagent/consumable/nuka_cran //ADDITION 04/14/2020
+	name = "Nuka-Cola Cranberry"
+	description = "Some cranberry Nuka-Cola."
+	color = "#43231f" // rgb: 67, 35, 31
+	taste_description = "West Virginian flavored Nuka-Cola"
+	glass_name = "glass of Nuka-Cranberry"
+	glass_desc = "A glass of Nuka-Cranberry."
+
+/datum/reagent/consumable/nuka_cran/on_mob_life(mob/living/carbon/M)
+	M.drowsyness = max(0,M.drowsyness-5)
+	M.Jitter(1)
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
+/datum/reagent/consumable/nuka_wild //ADDITION 04/14/2020
+	name = "Nuka-Wild"
+	description = "Some sweet Nuka-Wild sasparilla."
+	color = "#43391f" // rgb: 42, 53, 26
+	taste_description = "sweet flavored Nuka-Wild"
+	glass_name = "glass of Nuka-Wild"
+	glass_desc = "A glass of Nuka-Wild."
+
+/datum/reagent/consumable/nuka_wild/on_mob_life(mob/living/carbon/M)
+	M.drowsyness = max(0,M.drowsyness-5)
+	M.Jitter(1)
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
+/datum/reagent/consumable/nuka_boost //ADDITION 04/14/2020
+	name = "Nuka-boost"
+	description = "Weridly sweet but bitter Nuka-Boost."
+	color = "#1d1b16" // rgb: 29, 27, 22
+	taste_description = "sweetly bitter flavored Nuka-Boost"
+	glass_name = "glass of Nuka-Boost"
+	glass_desc = "A glass of Nuka-Boost."
+
+/datum/reagent/consumable/nuka_boost/on_mob_life(mob/living/carbon/M)
+	M.dizziness = max(0,M.dizziness-5)
+	M.drowsyness = max(0,M.drowsyness-3)
+	M.SetSleeping(0, FALSE)
+	M.adjust_bodytemperature(5 * TEMPERATURE_DAMAGE_COEFFICIENT, 0, M.get_body_temp_normal())
+	M.Jitter(6)
+	if(M.getBruteLoss() && prob(20))
+		M.heal_bodypart_damage(1,0, 0)
+	..()
+	. = 1
+
+/datum/reagent/consumable/nuka_victory //ADDITION 04/14/2020
+	name = "Nuka-Cola Victory"
+	description = "Victory in a bottle."
+	color = "#be6600" // rgb: 109, 102, 0
+	taste_description = "victory... refreshingly patriotic"
+	glass_name = "glass of Nuka-Cola Victory"
+	glass_desc = "A glowing glass of Nuka-Cola Victory."
+
+/datum/reagent/consumable/nuka_victory/on_mob_life(mob/living/carbon/M)
+	M.Jitter(5)
+	M.dizziness +=.5
+	M.drowsyness = 0
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
+/datum/reagent/consumable/nuka_quartz //ADDITION 04/14/2020
+	name = "Nuka-Cola Quartz"
+	description = "Quartz grade Nuka-Cola."
+	color = "#e7e7e7" // rgb: 32, 0, 90
+	taste_description = "crystal quartz cola"
+	glass_name = "glass of Nuka-Cola Quartz"
+	glass_desc = "A glowing glass of Nuka-Cola Quartz."
+
+/datum/reagent/consumable/nuka_quartz/on_mob_life(mob/living/carbon/M)
+	M.Jitter(8)
+	M.set_drugginess(5)
+	M.dizziness +=1
+	M.drowsyness = 0
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
+/datum/reagent/consumable/vim_quartz //ADDITION 04/14/2020
+	name = "Vim! Quartz"
+	description = "Quartz grade Nuka-Cola."
+	color = "#e7e7e7" // rgb: 32, 0, 90
+	taste_description = "crystal quartz cola"
+	glass_name = "glass of Vim! Quartz"
+	glass_desc = "A glowing glass of Vim! Quartz."
+
+/datum/reagent/consumable/vim_quartz/on_mob_life(mob/living/carbon/M)
+	M.Jitter(6)
+	M.set_drugginess(1)
+	M.dizziness +=.5
+	M.drowsyness = 0
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
+/datum/reagent/consumable/vim_captain //ADDITION 04/14/2020
+	name = "Vim! Captain's Blend"
+	description = "Maine's favorite specialty blend."
+	color = "#237c84" // rgb: 185, 73, 51
+	taste_description = "sweet and savory with a slight fishy aftertaste"
+	glass_name = "glass of Vim! Captain's Blend"
+	glass_desc = "A glowing glass of Vim! Captain's Blend."
+
+/datum/reagent/consumable/vim_captain/on_mob_life(mob/living/carbon/M)
+	M.Jitter(8)
+	M.set_drugginess(3)
+	M.dizziness +=1
+	M.drowsyness = 0
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
+/datum/reagent/consumable/nuka_quantum //ADDITION 04/14/2020
+	name = "Nuka-Cola Quantum"
+	description = "Nuka-Cola Quantum."
+	color = "#00adbe" // rgb: 0, 173, 190
+	taste_description = "quantum mechanics... and radiation"
+	glass_name = "glass of Nuka-Cola Quantum"
+	glass_desc = "A glowing glass of Nuka-Cola Quantum."
+
+/datum/reagent/consumable/nuka_quantum/on_mob_metabolize(mob/living/L)
+	..()
+	L.add_movespeed_modifier(type, update=TRUE, priority=100, multiplicative_slowdown=-0.35, blacklisted_movetypes=(FLYING|FLOATING))
+
+/datum/reagent/consumable/nuka_quantum/on_mob_end_metabolize(mob/living/L)
+	L.remove_movespeed_modifier(type)
+	..()
+
+/datum/reagent/consumable/nuka_quantum/on_mob_life(mob/living/carbon/M)
+	M.Jitter(10)
+	M.set_drugginess(15)
+	M.dizziness +=1.5
+	M.drowsyness = 0
+	M.AdjustSleeping(-20, FALSE)
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+	. = 1
 
 /datum/reagent/consumable/fusion_cola //REVISED 04/13/2020
 	name = "Fusion Cola"
