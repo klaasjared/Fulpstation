@@ -862,7 +862,7 @@
 /obj/item/reagent_containers/food/drinks/fusion_cola_bottle //ADDITION 04/14/2020
 	name = "Fusion Cola"
 	desc = "A bootleg Nuka-Cola with a more radioactive punch"
-	icon_state = "fussion_bottle"
+	icon_state = "fusion_bottle"
 	list_reagents = list(/datum/reagent/consumable/fusion_cola = 35)
 	foodtype = SUGAR
 
