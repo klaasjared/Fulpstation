@@ -532,7 +532,7 @@
 	..()
 
 /datum/reagent/consumable/nuka_boost //ADDITION 04/14/2020
-	name = "Nuka-boost"
+	name = "Nuka-Boost"
 	description = "Weridly sweet but bitter Nuka-Boost."
 	color = "#1d1b16" // rgb: 29, 27, 22
 	taste_description = "sweetly bitter flavored Nuka-Boost"
