@@ -859,6 +859,13 @@
 	list_reagents = list(/datum/reagent/consumable/nuka_quantum = 35)
 	foodtype = SUGAR
 
+/obj/item/reagent_containers/food/drinks/fusion_cola_bottle //ADDITION 04/14/2020
+	name = "Fusion Cola"
+	desc = "A bootleg Nuka-Cola with a more radioactive punch"
+	icon_state = "fussion_bottle"
+	list_reagents = list(/datum/reagent/consumable/fusion_cola = 35)
+	foodtype = SUGAR
+
 /obj/item/reagent_containers/food/drinks/soda_cans/wc_black_cherry //ADDITION 04/07/2020
 	name = "White Claw: Black Cherry"
 	desc = "White Claw: A drink for the Chads in space."
