@@ -560,7 +560,7 @@
 
 /datum/reagent/consumable/nuka_victory/on_mob_life(mob/living/carbon/M)
 	M.Jitter(5)
-	M.dizziness +=.5
+	M.dizziness +=1
 	M.drowsyness = 0
 	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
 	..()
@@ -576,7 +576,7 @@
 /datum/reagent/consumable/nuka_quartz/on_mob_life(mob/living/carbon/M)
 	M.Jitter(8)
 	M.set_drugginess(5)
-	M.dizziness +=1
+	M.dizziness +=1.5
 	M.drowsyness = 0
 	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
 	..()
@@ -592,7 +592,7 @@
 /datum/reagent/consumable/vim_quartz/on_mob_life(mob/living/carbon/M)
 	M.Jitter(6)
 	M.set_drugginess(1)
-	M.dizziness +=.5
+	M.dizziness +=1
 	M.drowsyness = 0
 	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
 	..()
