@@ -121,7 +121,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 /datum/reagent/consumable/ethanol/beer/green/on_mob_end_metabolize(mob/living/M)
 	M.remove_atom_colour(TEMPORARY_COLOUR_PRIORITY, color)
 
-/datum/reagent/consumable/nuka_dark //ADDITION 04/14/2020
+/datum/reagent/consumable/ethanol/nuka_dark //ADDITION 04/14/2020
 	name = "Nuka-Cola Dark"
 	description = "An alcoholic version of the wildly popular Nuka-Cola."
 	color = "#24211e" // rgb: 36, 33, 30
@@ -131,7 +131,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_name = "glass of Nuka-Cola Dark"
 	glass_desc = "A glass of Nuka-Cola Dark."
 
-/datum/reagent/consumable/nuka_dark/on_mob_life(mob/living/carbon/M)
+/datum/reagent/consumable/ethanol/nuka_dark/on_mob_life(mob/living/carbon/M)
 	M.drowsyness = max(0,M.drowsyness-5)
 	M.Jitter(1)
 	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
