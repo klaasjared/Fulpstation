@@ -387,6 +387,21 @@
 	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
 	..()
 
+/datum/reagent/consumable/nuka_cola //ADDITION 04/14/2020
+	name = "Nuka Cola"
+	description = "A unique mix of seventeen fruit essences."
+	color = "#180c00" // rgb: 24, 12, 0
+	taste_description = "delicious nuka cola"
+	glass_icon_state  = "glass_empty"
+	glass_name = "glass of Nuka Cola"
+	glass_desc = "A glass of Nuka Cola."
+
+/datum/reagent/consumable/nuka_cola/on_mob_life(mob/living/carbon/M)
+	M.drowsyness = max(0,M.drowsyness-5)
+	M.Jitter(1)
+	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, BODYTEMP_NORMAL)
+	..()
+
 /datum/reagent/consumable/fusion_cola //REVISED 04/13/2020
 	name = "Fusion Cola"
 	description = "Cola... cola never changes..."
