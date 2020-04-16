@@ -56,6 +56,18 @@ GLOBAL_LIST_INIT(trash_loot, list(//junk: useless, very easy to get, or ghetto c
 		/obj/item/stake/basic = 1, //FULP
 		/obj/item/stake/hardened = 1, //FULP
 
+		/obj/item/trash/rad_gumdrops = 1, //ADDITION 04/15/2020
+		/obj/item/trash/potato_crisps = 1, //ADDITION 04/15/2020
+		/obj/item/trash/cheezy_poofs = 1, //ADDITION 04/15/2020
+		/obj/item/trash/dried_mutfruit = 1, //ADDITION 04/15/2020
+		/obj/item/trash/cram = 1, //ADDITION 04/15/2020
+		/obj/item/trash/dandy_apples = 1, //ADDITION 04/15/2020
+		/obj/item/trash/yum_yum_eggs = 1, //ADDITION 04/15/2020
+		/obj/item/trash/lad_cakes = 1, //ADDITION 04/15/2020
+		/obj/item/trash/sals_steak = 1, //ADDITION 04/15/2020
+		/obj/item/trash/blamco_mac = 1, //ADDITION 04/15/2020
+		/obj/item/trash/sugar_bombs = 1, //ADDITION 04/15/2020
+
 		/obj/item/reagent_containers/pill/floorpill = 1,
 		/obj/item/toy/eightball = 1,
 		) = 8,
@@ -278,7 +290,18 @@ GLOBAL_LIST_INIT(ratking_trash, list(//Garbage: used by the regal rat mob when s
 			/obj/item/trash/popcorn,
 			/obj/item/trash/raisins,
 			/obj/item/trash/sosjerky,
-			/obj/item/trash/syndi_cakes))
+			/obj/item/trash/syndi_cakes
+			/obj/item/trash/rad_gumdrops, //ADDITION 04/15/2020
+			/obj/item/trash/potato_crisps, //ADDITION 04/15/2020
+			/obj/item/trash/cheezy_poofs, //ADDITION 04/15/2020
+			/obj/item/trash/dried_mutfruit, //ADDITION 04/15/2020
+			/obj/item/trash/cram, //ADDITION 04/15/2020
+			/obj/item/trash/dandy_apples, //ADDITION 04/15/2020
+			/obj/item/trash/yum_yum_eggs, //ADDITION 04/15/2020
+			/obj/item/trash/lad_cakes, //ADDITION 04/15/2020
+			/obj/item/trash/sals_steak, //ADDITION 04/15/2020
+			/obj/item/trash/blamco_mac, //ADDITION 04/15/2020
+			/obj/item/trash/sugar_bombs)) //ADDITION 04/15/2020
 
 GLOBAL_LIST_INIT(ratking_coins, list(//Coins: Used by the regal rat mob when spawning coins.
 			/obj/item/coin/iron,
