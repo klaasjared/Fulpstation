@@ -135,7 +135,7 @@
 			/obj/item/trash/popcorn = 1,
 			/obj/item/trash/raisins = 1,
 			/obj/item/trash/sosjerky = 1,
-			/obj/item/trash/syndi_cakes = 1
+			/obj/item/trash/syndi_cakes = 1,
 			/obj/item/trash/potato_crisps = 1, //ADDITION 04/15/2020
 			/obj/item/trash/rad_gumdrops = 1, //ADDITION 04/15/2020
 			/obj/item/trash/cheezy_poofs = 1, //ADDITION 04/15/2020
