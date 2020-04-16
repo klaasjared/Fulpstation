@@ -184,7 +184,7 @@
 	filling_color = "#FFD700"
 	tastes = list("cheese" = 5, "poofs" = 2)
 	foodtype = JUNKFOOD | DAIRY | SUGAR
-	custom_price = 35
+	custom_price = 50
 	
 /obj/item/reagent_containers/food/snacks/dried_mutfruit //ADDITION 04/15/2020
 	name = "dried mutfruit"
@@ -196,7 +196,7 @@
 	filling_color = "#8B0000"
 	tastes = list("strange dried fruit" = 3, "chewy sweet citrus" = 2, "strawberry?... lemon?" = 1)
 	foodtype = JUNKFOOD | FRUIT | SUGAR
-	custom_price = 40
+	custom_price = 70
 
 /obj/item/reagent_containers/food/snacks/cram //ADDITION 04/15/2020
 	name = "Cram"
@@ -230,7 +230,7 @@
 	filling_color = "#8B0000"
 	tastes = list("savory" = 4, "sweetness" = 2)
 	foodtype = JUNKFOOD | DAIRY | SUGAR
-	custom_price = 50
+	custom_price = 70
 
 /obj/item/reagent_containers/food/snacks/lad_cakes
 	name = "Fancy Lad Snack Cakes"
@@ -252,7 +252,7 @@
 	filling_color = "#8B0000"
 	tastes = list("savory" = 4, "sweetness" = 2)
 	foodtype = JUNKFOOD | MEAT
-	custom_price = 60	
+	custom_price = 80	
 	
 /obj/item/reagent_containers/food/snacks/blamco_mac //ADDITION 04/15/2020
 	name = "Blamco Mac'n'cheese Bites"
