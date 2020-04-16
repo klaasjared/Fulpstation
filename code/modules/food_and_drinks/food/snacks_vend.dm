@@ -164,7 +164,7 @@
 
 /obj/item/reagent_containers/food/snacks/potato_crisps //ADDITION 04/15/2020
 	name = "Spring Valley Potato Crisps"
-	desc = "The perfect snack at the end of the world."
+	desc = "The perfect snack for the end of the world."
 	icon_state = "chips"
 	trash = /obj/item/trash/potato_crisps
 	bitesize = 1
