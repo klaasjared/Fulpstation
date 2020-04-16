@@ -177,7 +177,7 @@
 /obj/item/reagent_containers/food/snacks/cheezy_poofs //ADDITION 04/15/2020
 	name = "Cheezy Poofs"
 	desc = "Also known as cheese honkers' lead competition."
-	icon_state = "cheesy_poofs"
+	icon_state = "cheezy_poofs"
 	trash = /obj/item/trash/cheezy_poofs
 	list_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/sugar = 3)
 	junkiness = 25
@@ -212,7 +212,7 @@
 /obj/item/reagent_containers/food/snacks/dandy_apples //ADDITION 04/15/2020
 	name = "Dandy Boy Apples"
 	desc = "A classic old Earth treat that hails from the United States. Some say it can survive a nuclear war!"
-	icon_state = "dandy_apple"
+	icon_state = "dandy_apples"
 	trash = /obj/item/trash/dandy_apples
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 5)
 	junkiness = 25
@@ -223,7 +223,7 @@
 /obj/item/reagent_containers/food/snacks/yum_yum_eggs //ADDITION 04/15/2020
 	name = "Yum Yum Deviled Eggs"
 	desc = "Ready made deviled eggs in a nice convenient package!"
-	icon_state = "yum_yum_eggs "
+	icon_state = "yum_yum_eggs"
 	trash = /obj/item/trash/yum_yum_eggs 
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/sugar = 2, /datum/reagent/consumable/sodiumchloride = 3)
 	junkiness = 25
