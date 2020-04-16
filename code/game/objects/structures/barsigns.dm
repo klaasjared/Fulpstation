@@ -289,6 +289,11 @@
 	icon = "goose"
 	desc = "Drink till you puke and/or break the laws of reality!"
 
+/datum/barsign/hadeshaven //ADDITION 04/15/2020
+	name = "Hades Haven"
+	icon = "hadeshaven"
+	desc = "A little dark, a little gloomy, and always full of drunk people!"
+
 /datum/barsign/hiddensigns
 	hidden = TRUE
 
