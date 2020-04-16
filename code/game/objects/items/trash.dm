@@ -103,6 +103,56 @@
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "beans_empty"
 
+
+//-------------------------------------------------FALLOUT-BASED FOOD ITEMS ARE BELOW THIS LINE-------------------------------------------------
+
+
+/obj/item/trash/rad_gumdrops //ADDITION 04/15/2020
+	name = "radiation gumdrops"
+	icon_state = "rad_gumdrops"
+
+/obj/item/trash/potato_crisps //ADDITION 04/15/2020
+	name = "potato crisps"
+	icon_state = "potato_crisps"
+	grind_results = list(/datum/reagent/aluminium = 5) //chips are in a metal can
+
+/obj/item/trash/cheezy_poofs //ADDITION 04/15/2020
+	name = "cheezy poofs"
+	icon_state = "cheezy_poofs"
+
+/obj/item/trash/dried_mutfruit //ADDITION 04/15/2020
+	name = "dried mutfruit"
+	icon_state = "dried_mutfruit"
+
+/obj/item/trash/cram //ADDITION 04/15/2020
+	name = "cram"
+	icon_state = "cram"
+	grind_results = list(/datum/reagent/aluminium = 5) //packaged in a metal tin
+
+/obj/item/trash/dandy_apples //ADDITION 04/15/2020
+	name = "dandy boy apples"
+	icon_state = "dandy_apples"
+
+/obj/item/trash/yum_yum_eggs //ADDITION 04/15/2020
+	name = "yum yum deviled eggs"
+	icon_state = "yum_yum_eggs"
+
+/obj/item/trash/lad_cakes //ADDITION 04/15/2020
+	name = "fancy lad cakes"
+	icon_state = "lad_cakes"
+
+/obj/item/trash/sals_steak //ADDITION 04/15/2020
+	name = "salisbury steak"
+	icon_state = "sals_steak"
+
+/obj/item/trash/blamco_mac //ADDITION 04/15/2020
+	name = "blamco mac'n'cheese"
+	icon_state = "blamco_mac"
+
+/obj/item/trash/sugar_bombs //ADDITION 04/15/2020
+	name = "sugar bombs"
+	icon_state = "sugar_bombs"
+
 /obj/item/trash/can/Initialize()
 	. = ..()
 	pixel_x = rand(-4,4)
