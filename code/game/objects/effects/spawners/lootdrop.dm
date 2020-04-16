@@ -135,7 +135,18 @@
 			/obj/item/trash/popcorn = 1,
 			/obj/item/trash/raisins = 1,
 			/obj/item/trash/sosjerky = 1,
-			/obj/item/trash/syndi_cakes = 1)
+			/obj/item/trash/syndi_cakes = 1
+			/obj/item/trash/potato_crisps = 1, //ADDITION 04/15/2020
+			/obj/item/trash/rad_gumdrops = 1, //ADDITION 04/15/2020
+			/obj/item/trash/cheezy_poofs = 1, //ADDITION 04/15/2020
+			/obj/item/trash/dried_mutfruit = 1, //ADDITION 04/15/2020
+			/obj/item/trash/cram = 1, //ADDITION 04/15/2020
+			/obj/item/trash/dandy_apples = 1, //ADDITION 04/15/2020
+			/obj/item/trash/yum_yum_eggs = 1, //ADDITION 04/15/2020
+			/obj/item/trash/lad_cakes = 1, //ADDITION 04/15/2020
+			/obj/item/trash/sals_steak = 1, //ADDITION 04/15/2020
+			/obj/item/trash/blamco_mac = 1, //ADDITION 04/15/2020
+			/obj/item/trash/sugar_bombs = 1) //ADDITION 04/15/2020
 
 /obj/effect/spawner/lootdrop/three_course_meal
 	name = "three course meal spawner"
