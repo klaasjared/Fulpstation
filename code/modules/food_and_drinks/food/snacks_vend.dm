@@ -146,3 +146,134 @@
 	filling_color = "#97ee63"
 	tastes = list("pure electricity" = 3, "fitness" = 2)
 	foodtype = TOXIC
+
+
+//-------------------------------------------------FALLOUT-BASED FOOD ITEMS ARE BELOW THIS LINE-------------------------------------------------
+
+
+/obj/item/reagent_containers/food/snacks/rad_gumdrops //ADDITION 04/15/2020
+	name = "Radioactive Gumdrops"
+	desc = "Disclaimer: Not actually radioactive in anyway"
+	icon_state = "rad_gumdrops"
+	trash = /obj/item/trash/rad_gumdrops
+	list_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/sugar = 3)
+	junkiness = 25
+	filling_color = "#D2691E"
+	tastes = list("candy" = 5, "candy... and radiation" = 1)
+	foodtype = JUNKFOOD | SUGAR
+
+/obj/item/reagent_containers/food/snacks/potato_crisps //ADDITION 04/15/2020
+	name = "Spring Valley Potato Crisps"
+	desc = "The perfect snack at the end of the world."
+	icon_state = "chips"
+	trash = /obj/item/trash/potato_crisps
+	bitesize = 1
+	list_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/sodiumchloride = 1)
+	junkiness = 20
+	filling_color = "#FFD700"
+	tastes = list("salt" = 1, "crisps" = 1)
+	foodtype = JUNKFOOD | FRIED
+
+/obj/item/reagent_containers/food/snacks/cheezy_poofs //ADDITION 04/15/2020
+	name = "Cheezy Poofs"
+	desc = "Also known as cheese honkers' lead competition."
+	icon_state = "cheesy_poofs"
+	trash = /obj/item/trash/cheezy_poofs
+	list_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/sugar = 3)
+	junkiness = 25
+	filling_color = "#FFD700"
+	tastes = list("cheese" = 5, "poofs" = 2)
+	foodtype = JUNKFOOD | DAIRY | SUGAR
+	custom_price = 35
+	
+/obj/item/reagent_containers/food/snacks/dried_mutfruit //ADDITION 04/15/2020
+	name = "dried mutfruit"
+	desc = "Stange mutated fruit from a tomb world that has been dried and packaged for your consumption."
+	icon_state = "dried_mutfruit"
+	trash = /obj/item/trash/dried_mutfruit
+	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/sugar = 4)
+	junkiness = 30
+	filling_color = "#8B0000"
+	tastes = list("strange dried fruit" = 3, "chewy sweet citrus" = 2, "strawberry?... lemon?" = 1)
+	foodtype = JUNKFOOD | FRUIT | SUGAR
+	custom_price = 40
+
+/obj/item/reagent_containers/food/snacks/cram //ADDITION 04/15/2020
+	name = "Cram"
+	desc = "A small can packed with weird and equally unknown meat... should you be eating this?"
+	icon_state = "cram"
+	trash = /obj/item/trash/cram
+	list_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/sugar = 2, /datum/reagent/consumable/sodiumchloride = 3)
+	junkiness = 25
+	filling_color = "#8B0000"
+	tastes = list("strange meat mix" = 6, "...TEETH?!" = 1)
+	foodtype = JUNKFOOD | MEAT | GROSS
+
+/obj/item/reagent_containers/food/snacks/dandy_apples //ADDITION 04/15/2020
+	name = "Dandy Boy Apples"
+	desc = "A classic old Earth treat that hails from the United States. Some say it can survive a nuclear war!"
+	icon_state = "dandy_apple"
+	trash = /obj/item/trash/dandy_apples
+	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 5)
+	junkiness = 25
+	filling_color = "#8B0000"
+	tastes = list("oddly crisp preserved apple" = 1)
+	foodtype = JUNKFOOD | FRUIT | SUGAR
+
+/obj/item/reagent_containers/food/snacks/yum_yum_eggs //ADDITION 04/15/2020
+	name = "Yum Yum Deviled Eggs"
+	desc = "Ready made deviled eggs in a nice convenient package!"
+	icon_state = "yum_yum_eggs "
+	trash = /obj/item/trash/yum_yum_eggs 
+	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/sugar = 2, /datum/reagent/consumable/sodiumchloride = 3)
+	junkiness = 25
+	filling_color = "#8B0000"
+	tastes = list("savory" = 4, "sweetness" = 2)
+	foodtype = JUNKFOOD | DAIRY | SUGAR
+	custom_price = 50
+
+/obj/item/reagent_containers/food/snacks/lad_cakes
+	name = "Fancy Lad Snack Cakes"
+	desc = "A big delight with every bite!"
+	icon_state = "lad_cakes"
+	trash = /obj/item/trash/lad_cakes
+	list_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/doctor_delight = 5)
+	filling_color = "#F5F5DC"
+	tastes = list("sweetness" = 3, "cake" = 1)
+	foodtype = GRAIN | DAIRY | SUGAR
+
+/obj/item/reagent_containers/food/snacks/sals_steak //ADDITION 04/15/2020
+	name = "salsbury steak"
+	desc = "The classic TV dinner for the modern family."
+	icon_state = "sals_steak"
+	trash = /obj/item/trash/sals_steak
+	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 2, /datum/reagent/consumable/sodiumchloride = 2)
+	junkiness = 30
+	filling_color = "#8B0000"
+	tastes = list("savory" = 4, "sweetness" = 2)
+	foodtype = JUNKFOOD | MEAT
+	custom_price = 60	
+	
+/obj/item/reagent_containers/food/snacks/blamco_mac //ADDITION 04/15/2020
+	name = "Blamco Mac'n'cheese Bites"
+	desc = "A blast of cheesy goodness with every bite!"
+	icon_state = "blamco_mac"
+	trash = /obj/item/trash/blamco_mac
+	bitesize = 1
+	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/sugar = 2, /datum/reagent/consumable/sodiumchloride = 1)
+	junkiness = 25
+	filling_color = "#FFD700"
+	tastes = list("savory" = 1, "cheeze'n'mac" = 1)
+	foodtype = JUNKFOOD | DAIRY | FRIED
+
+/obj/item/reagent_containers/food/snacks/sugar_bombs //ADDITION 04/15/2020
+	name = "Sugar Bomb Bites"
+	desc = "Explosive great taste!"
+	icon_state = "sugar_bombs"
+	trash = /obj/item/trash/sugar_bombs
+	bitesize = 1
+	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/sugar = 3)
+	junkiness = 30
+	filling_color = "#FFD700"
+	tastes = list("sweetness" = 1)
+	foodtype = JUNKFOOD | DAIRY | SUGAR
