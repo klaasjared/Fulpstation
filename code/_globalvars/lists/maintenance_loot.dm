@@ -290,7 +290,7 @@ GLOBAL_LIST_INIT(ratking_trash, list(//Garbage: used by the regal rat mob when s
 			/obj/item/trash/popcorn,
 			/obj/item/trash/raisins,
 			/obj/item/trash/sosjerky,
-			/obj/item/trash/syndi_cakes
+			/obj/item/trash/syndi_cakes,
 			/obj/item/trash/rad_gumdrops, //ADDITION 04/15/2020
 			/obj/item/trash/potato_crisps, //ADDITION 04/15/2020
 			/obj/item/trash/cheezy_poofs, //ADDITION 04/15/2020
