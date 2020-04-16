@@ -123,7 +123,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 
 /datum/reagent/consumable/ethanol/nuka_dark //ADDITION 04/14/2020
 	name = "Nuka-Cola Dark"
-	description = "An alcoholic version of the wildly popular Nuka-Cola."
+	description = "An alcoholic version of the wildly popular Nuka-Cola. Now in a real glass bottle!"
 	color = "#24211e" // rgb: 36, 33, 30
 	nutriment_factor = 1 * REAGENTS_METABOLISM
 	taste_description = "deliciously sweet Nuka-Cola with a boozy bite"
