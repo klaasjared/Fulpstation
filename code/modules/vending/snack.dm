@@ -23,6 +23,29 @@
 	payment_department = ACCOUNT_SRV
 	input_display_header = "Chef's Food Selection"
 
+/obj/machinery/vending/snack/vtec //ADDITION 04/15/2020
+	name = "\improper Vault-Tec Vend-o-tron"
+	desc = "A snack machine designed and operated by Vault-Tec industries on Earth."
+	product_slogans = "Guarenteed to survive a nuclear war!;Try our award winning salsbury steak!"
+	product_ads = "The healthiest food around!;Now 99.9999% radiation free! (kinda);Feeling down? Try our Sugar Bomb Bites! They're exploading with flavor!;Food so good you'll go nuclear!;Our Cram packaged meat now contains -REDACTED-, try it today!;Snacks are good for you!;Vault Boy says 'Eat our snacks!'"
+	icon_state = "vtec"
+	light_mask = "snack-light-mask"
+	products = list(/obj/item/reagent_containers/food/snacks/rad_gumdrops = 6,
+					/obj/item/reagent_containers/food/snacks/potato_crisps = 6,
+					/obj/item/reagent_containers/food/snacks/cheezy_poofs = 6,
+					/obj/item/reagent_containers/food/snacks/dried_mutfruit = 6,
+					/obj/item/reagent_containers/food/snacks/cram = 4,
+					/obj/item/reagent_containers/food/snacks/dandy_apples = 4,
+					/obj/item/reagent_containers/food/snacks/yum_yum_eggs = 4,
+					/obj/item/reagent_containers/food/snacks/lad_cakes = 4,
+					/obj/item/reagent_containers/food/snacks/sals_steak = 3,
+					/obj/item/reagent_containers/food/snacks/blamco_mac = 3,
+					/obj/item/reagent_containers/food/snacks/sugar_bombs = 3)
+	refill_canister = /obj/item/vending_refill/snack
+	default_price = 60
+	extra_price = 160
+	payment_department = ACCOUNT_SRV
+
 /obj/item/vending_refill/snack
 	machine_name = "Getmore Chocolate Corp"
 
@@ -49,25 +72,4 @@
 /obj/machinery/vending/snack/teal
 	icon_state = "snackteal"
 
-/obj/machinery/vending/snack/vtec //ADDITION 04/15/2020
-	name = "\improper Vault-Tec Vend-o-tron"
-	desc = "A snack machine designed and operated by Vault-Tec industries on Earth."
-	product_slogans = "Guarenteed to survive a nuclear war!;Try our award winning salsbury steak!"
-	product_ads = "The healthiest food around!;Now 99.9999% radiation free! (kinda);Feeling down? Try our Sugar Bomb Bites! They're exploading with flavor!;Food so good you'll go nuclear!;Our Cram packaged meat now contains -REDACTED-, try it today!;Snacks are good for you!;Vault Boy says 'Eat our snacks!'"
-	icon_state = "vtec"
-	light_mask = "snack-light-mask"
-	products = list(/obj/item/reagent_containers/food/snacks/rad_gumdrops = 6,
-					/obj/item/reagent_containers/food/snacks/potato_crisps = 6,
-					/obj/item/reagent_containers/food/snacks/cheezy_poofs = 6,
-					/obj/item/reagent_containers/food/snacks/dried_mutfruit = 6,
-					/obj/item/reagent_containers/food/snacks/cram = 4,
-					/obj/item/reagent_containers/food/snacks/dandy_apples = 4,
-					/obj/item/reagent_containers/food/snacks/yum_yum_eggs = 4,
-					/obj/item/reagent_containers/food/snacks/lad_cakes = 4,
-					/obj/item/reagent_containers/food/snacks/sals_steak = 3,
-					/obj/item/reagent_containers/food/snacks/blamco_mac = 3,
-					/obj/item/reagent_containers/food/snacks/sugar_bombs = 3)
-	refill_canister = /obj/item/vending_refill/snack
-	default_price = 60
-	extra_price = 160
-	payment_department = ACCOUNT_SRV
+
