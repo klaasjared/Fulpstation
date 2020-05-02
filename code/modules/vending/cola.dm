@@ -87,6 +87,35 @@
 	light_mask = "pwr_game-light-mask"
 	light_color = "#6927c5"
 
+/obj/machinery/vending/nuka_cola //ADDITION 04/14/2020
+	name = "\improper Nuka-Cola! Vendor"
+	desc = "A softdrink vendor opperated by the Nuka-Cola Corporation."
+	icon_state = "nuke_cola"
+	product_slogans = "Zap that thirst!"
+	product_ads = "Refreshing!;Cola never changes!;America's favorite drink!;Now (mostly) Radiation free!"
+	products = list(/obj/item/reagent_containers/food/drinks/nuka_cola_bottle = 10,
+		            /obj/item/reagent_containers/food/drinks/nuka_cher_bottle = 10,
+					/obj/item/reagent_containers/food/drinks/nuka_grap_bottle = 10,
+					/obj/item/reagent_containers/food/drinks/nuka_oran_bottle = 10,
+					/obj/item/reagent_containers/food/drinks/nuka_clr_bottle = 10,
+					/obj/item/reagent_containers/food/drinks/nuka_cran_bottle = 10,
+					/obj/item/reagent_containers/food/drinks/nuka_west_bottle = 10,
+					/obj/item/reagent_containers/food/drinks/sasparilla_bottle = 10,
+					/obj/item/reagent_containers/food/drinks/waterbottle = 10)
+	contraband = list(/obj/item/reagent_containers/food/drinks/vim_cola_bottle = 8,
+		              /obj/item/reagent_containers/food/drinks/vim_clr_bottle = 8,
+					  /obj/item/reagent_containers/food/drinks/vim_quar_bottle = 3,
+					  /obj/item/reagent_containers/food/drinks/vim_cap_bottle = 3)
+	premium = list(/obj/item/reagent_containers/food/drinks/nuka_quantum_bottle = 1,
+		           /obj/item/reagent_containers/food/drinks/nuka_quar_bottle = 2,
+		           /obj/item/reagent_containers/food/drinks/nuka_july_bottle = 2)
+	refill_canister = /obj/item/vending_refill/cola
+	default_price = 45
+	extra_price = 200
+	payment_department = ACCOUNT_SRV
+	light_mask = "cola-light-mask"
+	light_color = "#555cc2"
+
 /obj/machinery/vending/cola/shamblers
 	name = "\improper Shambler's Vendor"
 	desc = "~Shake me up some of that Shambler's Juice!~"
@@ -123,31 +152,4 @@
 	light_mask = "cola-light-mask"
 	light_color = "#555cc2"
 
-/obj/machinery/vending/nuka_cola //ADDITION 04/14/2020
-	name = "\improper Nuka-Cola! Vendor"
-	desc = "A softdrink vendor opperated by the Nuka-Cola Corporation."
-	icon_state = "nuke_cola"
-	product_slogans = "Zap that thirst!"
-	product_ads = "Refreshing!;Cola never changes!;America's favorite drink!;Now (mostly) Radiation free!"
-	products = list(/obj/item/reagent_containers/food/drinks/nuka_cola_bottle = 10,
-		            /obj/item/reagent_containers/food/drinks/nuka_cher_bottle = 10,
-					/obj/item/reagent_containers/food/drinks/nuka_grap_bottle = 10,
-					/obj/item/reagent_containers/food/drinks/nuka_oran_bottle = 10,
-					/obj/item/reagent_containers/food/drinks/nuka_clr_bottle = 10,
-					/obj/item/reagent_containers/food/drinks/nuka_cran_bottle = 10,
-					/obj/item/reagent_containers/food/drinks/nuka_west_bottle = 10,
-					/obj/item/reagent_containers/food/drinks/sasparilla_bottle = 10,
-					/obj/item/reagent_containers/food/drinks/waterbottle = 10)
-	contraband = list(/obj/item/reagent_containers/food/drinks/vim_cola_bottle = 8,
-		              /obj/item/reagent_containers/food/drinks/vim_clr_bottle = 8,
-					  /obj/item/reagent_containers/food/drinks/vim_quar_bottle = 3,
-					  /obj/item/reagent_containers/food/drinks/vim_cap_bottle = 3)
-	premium = list(/obj/item/reagent_containers/food/drinks/nuka_quantum_bottle = 1,
-		           /obj/item/reagent_containers/food/drinks/nuka_quar_bottle = 2,
-		           /obj/item/reagent_containers/food/drinks/nuka_july_bottle = 2)
-	refill_canister = /obj/item/vending_refill/cola
-	default_price = 45
-	extra_price = 200
-	payment_department = ACCOUNT_SRV
-	light_mask = "cola-light-mask"
-	light_color = "#555cc2"
+
